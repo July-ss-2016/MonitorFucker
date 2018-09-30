@@ -13,8 +13,8 @@ public class MonitorFucker {
     private static final String OUTPUT_PATH = "/Users/user/Desktop/ip.txt";
     private static final String INPUT_PATH = "/Users/user/Desktop/output.txt";
     private static OkHttpClient client = new OkHttpClient().newBuilder()
-            .readTimeout(100, TimeUnit.MILLISECONDS)
-            .connectTimeout(100, TimeUnit.MILLISECONDS)
+            .readTimeout(500, TimeUnit.MILLISECONDS)
+            .connectTimeout(500, TimeUnit.MILLISECONDS)
             .build();
 
     public static void main(String[] args) throws IOException {
